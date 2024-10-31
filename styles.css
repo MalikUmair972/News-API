@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(85, 99, 255);
+    height: 100vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-self: start;
+}
+
+.top {
+    color: #fff;
+    font-size: 64px;
+    font-family: sans-serif;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
+.container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-self: start;
+}
+
+.card {
+    width: 100%;
+    height: 300px;
+    max-width: 280px;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+h3, p, h1 {
+    width: 100%;
+    text-align: center;
+}
